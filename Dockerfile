@@ -11,5 +11,10 @@ ENV DISPLAY_HEIGHT=768
 COPY dosbox.conf /app/conf.d/
 
 ### get games from https://dosgames.com/
+
+### Add games to image...
 # COPY game1.tar.gz /root/dos/game1
 # COPY game2 /root/dos/game2
+
+### ... or use from volume
+# VOLUME /root/dos/
