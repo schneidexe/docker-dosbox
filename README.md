@@ -1,6 +1,6 @@
 # docker-dosbox
 
-Run [dosbox](https://www.dosbox.com/) in a docker container. I run it on my NAS.
+Run [DOSBox](https://www.dosbox.com/) in a docker container. I run it on my NAS.
 
 1. Add you game archives or folders
 2. Run `docker build -t dosbox .`
